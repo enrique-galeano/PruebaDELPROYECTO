@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit:300,400,700&display=swap');
+body{
+  font-size: 15px;
+  font-family: 'Kanit', sans-serif;
+  background-color: #212235;
+}
+#hero h1{
+  color: #ffffff;
+}
+#hero h2{
+  color: #8658d2;
+}
+#hero h3{
+  color: #1edd8e;
+}
+
+#info-about-me{
+  padding-top: 10%;
+}
+
+.titulos{
+  font-size: 24px;
+  color: #fff;
+}
+
+.info-texto p{
+  font-size: 19px;
+  color: #fff;
+  text-align: left;
+}
+
+#info-footer{
+  background-color: rgba(13, 12, 20, 0.64);
+  color: #a2a2a2;
+  padding: 20px 0;
+  font-size: 13px;
+}
+#info-footer h4{
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #dfdfdf;
+  margin-bottom: 25px;
+}
+
+#copy-right{
+  background-color:rgba(13, 12, 20, 0.64);
+  color: #888888;
+  padding: 10px 0;
+  font-size: 12px;
+}
+
+#copy-right a{
+  color: #888;
+}
+
+#copy-right a:hover{
+  color: #fff;
+}
+
+#map{
+  width: 100%;
+  height: 400px;
+}
+
+.form-control{
+  background-color: #f2f4f8;
+  border-radius: 0;
+  border:0;
+}
+
+
+/*Pruebas nada mas*/
+#contact h1, p, h3{
+  color: #ffffff;
+}
+
+
+/*Animaton rotate
+#loading {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}*/

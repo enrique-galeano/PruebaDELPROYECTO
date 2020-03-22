@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link  href="css/bootstrap.min.css" rel="stylesheet">
+  <link   href="css/bootstrap-custom.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+  <link  href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+          <!--Aqui ira mi pixel art de star wars que sere yo -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <a class="nav-link " href="#">Portafolio de Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-menu" href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id = "contact"  class = "section">
+    <div class="container">
+      <h2 class = "titulos">Reach Us At</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+        ut aliquip ex ea commodo consequat.</p>
+        <!--ESTOS ERAN LOS ICONOS-->
+        <!--<div class="row">
+        <article class="col-md-4 col-sm-12">
+        <div class="icon-up">
+        <div class="icon">
+        <i class="fas fa-map-marker-alt"></i>
+      </div>
+      <div class="texto">
+      <p>Lorem ipsum dolor.</p>
+      <p>Tegucigalpa</p>
+      <p>Honduras</p>
+    </div>
+  </div>
+</article>
+<article class="col-md-4 col-sm-12">
+<div class="icon-up">
+<div class="icon">
+<i class="fas fa-envelope"></i>
+</div>
+<div class="texto">
+<p>Lorem ipsum dolor.</p>
+<p>Tegucigalpa</p>
+<p>Honduras</p>
+</div>
+</div>
+</article>
+<article class="col-md-4 col-sm-12">
+<div class="icon-up">
+<div class="icon">
+<i class="fas fa-phone"></i>
+</div>
+<div class="texto">
+<p>Lorem ipsum dolor.</p>
+<p>Tegucigalpa</p>
+<p>Honduras</p>
+</div>
+</div>
+</article>
+</div>-->
+<div class="row">
+  <article class="col-md-6 col-sm-12 mt-5">
+    <h3>Puedes enviar tu contacto</h3>
+    <form name = "form-contact" id ="form-contact" method="post">
+      <div class="form-group">
+        <input type="text" name="nombre" id= "nombre" class = "form-control" placeholder="Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="correo" id= "correo" class = "form-control" placeholder="Correo" required>
+      </div>
+      <div class="form-group">
+        <select class="form-control" name="subject" id ="subject">
+          <option value = "sp">
+            Soporte
+          </option>
+          <option value = "ac">
+            Atencion al Cliente
+          </option>
+          <option value = "ot">
+            Otros
+          </option>
+        </select>
+      </div>
+      <div class="form-group">
+        <textarea name="comment" id = "comment" placeholder="Message" class = "form-control" rows="10" cols="80"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-negro">Submit</button>
+      </div>
+    </form>
+  </article>
+
+  <article class="col-md-6 col-sm-12 mt-5">
+    <h3>Our Office</h3>
+    <div id = "map"></div>
+  </article>
+</div>
+</div>
+</section>
+<footer>
+  <section id = "info-footer">
+    <div class="container">
+      <div class="row">
+        <article class="col-md-4 col-sm-12">
+          <h4>About Us</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <ul class = "list-inline redes">
+            <li class = "list-inline-item">
+              <a href="https://www.youtube.com" target="_blank"> <i class="fab fa-youtube"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com" target="_blank"> <i class="fab fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com" target="_blank"> <i class="fab fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.twitter.com" target="_blank"> <i class="fab fa-twitter"></i></a>
+            </li>
+          </ul>
+        </article>
+        <article class="col-md-4 col-sm-12">
+
+        </article>
+        <article class="col-md-4 col-sm-12">
+
+        </article>
+      </div>
+    </div>
+  </section>
+  <section id = "copy-right">
+    <div class="container">
+      <div class="row">
+        <article class="col-md-4 col-sm-12 text-left">
+          <p> Copyright &copyright; 2020</p>
+        </article>
+        <article class="col-md-4 col-sm-12 text-right">
+          <ul class = "list-inline">
+            <li class = "list-inline-item">
+              <a href="#">Terms & Conditions</a>
+            </li>
+            <li class = "list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class = "list-inline-item">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+</footer>
+<script src= "js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=false"></script>
+<script src="js/gMaps.js"></script>
+<script>
+$(function () {
+
+  $(window).load(function(){
+    mostrarMapa();
+  });
+
+  function mostrarMapa(){
+    var map;
+    var mLat = 14.043876; //latitud
+    var mLng = -87.190096; //longitud
+
+    map = new GMaps({
+      div: '#map', //id del <div> donde se mostrará el mapa.
+      lat: mLat,
+      lng: mLng,
+      zoom: 18
+    });
+
+    map.addMarker({
+      lat: mLat,
+      lng: mLng,
+      title: 'Nuestra ubicación en gMaps',
+      infoWindow: {
+        content: '<p>UNITEC - Univ. Tecnológica de Honduras</p>'
+      }
+    });
+  }
+});
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-160345549-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-160345549-1');
+</script>
+
+</body>
+</html>
